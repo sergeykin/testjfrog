@@ -4,7 +4,7 @@
 
     <groupId>ru.test</groupId>
     <artifactId>testjfrog</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.5-SNAPSHOT</version>
 
 
     <properties>
@@ -79,12 +79,12 @@
         <repository>
             <id>central</id>
             <name>a0ikbkono7swg-artifactory-primary-0-releases</name>
-            <url>C:/testrepo</url>
+            <url>https://sergeykin.jfrog.io/artifactory/default-maven-virtual</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>a0ikbkono7swg-artifactory-primary-0-snapshots</name>
-            <url>C:/testrepo</url>
+            <url>https://sergeykin.jfrog.io/artifactory/default-maven-virtual</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
