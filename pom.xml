@@ -4,7 +4,8 @@
 
     <groupId>ru.test</groupId>
     <artifactId>testjfrog</artifactId>
-    <version>1.0</version>
+    <version>1.2-SNAPSHOT</version>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -70,9 +71,8 @@
 
     <scm>
         <connection>
-            scm:git:github.com/sergeykin/testjfrog.git
+            scm:git:https://github.com/sergeykin/testjfrog.git
         </connection>
-      <tag>testjfrog-1.0</tag>
   </scm>
     <distributionManagement>
         <repository>
