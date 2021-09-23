@@ -4,7 +4,7 @@
 
     <groupId>ru.test</groupId>
     <artifactId>testjfrog</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
 
 
     <properties>
@@ -73,6 +73,7 @@
         <connection>
             scm:git:https://github.com/sergeykin/testjfrog.git
         </connection>
+    <tag>testjfrog-1.2</tag>
   </scm>
     <distributionManagement>
         <repository>
